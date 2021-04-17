@@ -235,7 +235,7 @@ signup!">
 <div class="sqs-block-button-container--center" data-animation-role="button" data-alignment="center" data-button-size="large" id="yui_3_17_2_1_1614247800933_149">
 	
 </div>
-</div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-1899a07693c1f8eabe16"><div class="sqs-block-content"><hr></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-ae32431637d265e77355"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;">Ready to Sign Up?</h2><p class="" style="white-space:pre-wrap;"><strong>Note: Due to a huge increase in volunteer applications during COVID-19, we are currently only moving forward with a small percentage of incoming applications.</strong> If you’re interested in volunteering with us, please fill out the below interest form to be added to our waitlist. We’ll get back to you as soon as we’re able to move forward with your application!</p></div></div><div class="sqs-block form-block sqs-block-form" data-block-type="9" id="block-73473f62296ee6b15762"><div class="sqs-block-content">
+</div></div><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-1899a07693c1f8eabe16"><div class="sqs-block-content"><hr></div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-ae32431637d265e77355"><div class="sqs-block-content"><h2 style="white-space:pre-wrap;">Ready to Sign Up?</h2></div></div><div class="sqs-block form-block sqs-block-form" data-block-type="9" id="block-73473f62296ee6b15762"><div class="sqs-block-content">
 
 
 
