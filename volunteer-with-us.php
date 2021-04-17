@@ -174,7 +174,7 @@ signup!">
       <a href="volunteer-with-us.php" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch, HeaderNavFolderTouch">Volunteer</a>
 
      
-    </span><a href="contact.php" target="_blank" class="Header-nav-item">Contact</a>
+    </span><a href="contact.php" class="Header-nav-item" data-test="template-nav">Contact</a>
   </div>
 
               </nav></div>
