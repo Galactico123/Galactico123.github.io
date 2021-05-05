@@ -15,7 +15,7 @@ contact_form.addEventListener('submit', function (e) {
 
   // Smtp email function
   Email.send({
-    SecureToken: "<a secret token>", // An encryption of sender's email, password. That is, an encryption of rocketaccomplish@gmail.com and password with an email server  as it will be dangerous to disclose openly here.
+    SecureToken: "<a2bdd682-df33-44bc-848d-0316cfb02656>", // An encryption of sender's email, password. That is, an encryption of rocketaccomplish@gmail.com and password with an email server  as it will be dangerous to disclose openly here.
     To: 'rocketaccomplish@gmail.com', // your email addresss (as receiver's email) 
     From: 'rocketaccomplish@gmail.com', // your email address (as sender's email or email used with an email server)
     Subject: "New Contact Form - Rocket Accomplish",
