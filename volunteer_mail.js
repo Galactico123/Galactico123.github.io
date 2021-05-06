@@ -30,9 +30,9 @@ volunteer_form.addEventListener('submit', function (e) {
   submit_btn.value = 'Loading';
 
   Email.send({
-    SecureToken: "<a2bdd682-df33-44bc-848d-0316cfb02656>", // An encryption of sender's email, password. That is, an encryption of rocketaccomplish@gmail.com and password with an email server  as it will be dangerous to disclose openly here.
+    SecureToken: "a2bdd682-df33-44bc-848d-0316cfb02656", // An encryption of sender's email, password. That is, an encryption of rocketaccomplish@gmail.com and password with an email server  as it will be dangerous to disclose openly here.
     To: 'rocketaccomplish@gmail.com', // your email addresss (as receiver's email) 
-    From: 'jotweb.testing@gmail.com', // your email address (as sender's email or email used with an email server)
+    From: 'rocketaccomplish@gmail.com', // your email address (as sender's email or email used with an email server)
     Subject: "Volunteer Form - Rocket Accomplish",
     Body: "<html><h2>Volunteer Form Submission</h2><strong>First Name: </strong>" + fname + "<br><strong>Last Name: </strong>" + lname + "<br><strong>Email: </strong>" + eaddress + "<br><br><strong>School and Current Grade: </strong>" + sncg + "<br><strong>What is your average GPA for the past school year?: </strong>" + gpa + "<br><strong>What are the subjects that you are interested in tutoring/coaching?: </strong>" + markedSubjects.join(', ') + "<br><strong>Please provide your legal guardian's contact information: </strong>" + legal + "<br><strong>Please write 2-5 sentences about yourself: </strong>" + it  + "<br><strong>please provide the full name of the individual/teacher: </strong>" + message + "</html>",
   }).then(
