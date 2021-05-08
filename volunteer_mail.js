@@ -13,7 +13,7 @@ volunteer_form.addEventListener('submit', function (e) {
   let gpa = this.gpa.value;
   let legal = this.legal.value;
   let message = this.message.value;
-  let it = this.it.value;
+  var it = '';
   var submit_btn = document.querySelector('.sqs-editable-button');
   
   var subjectsCheckbox = this.tc;
@@ -25,6 +25,10 @@ volunteer_form.addEventListener('submit', function (e) {
       if (subject.checked) {
           markedSubjects.push(subject.value);
       }
+  }
+  if (this.it.value != '' && this.it.value != null) {
+    console.log(this.it.value);
+    it = this.it.value
   }
   
   submit_btn.value = 'Loading';
