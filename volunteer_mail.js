@@ -40,7 +40,6 @@ volunteer_form.addEventListener('submit', function (e) {
     Body: "<html><h2>Volunteer Form Submission</h2><strong>First Name: </strong>" + fname + "<br><strong>Last Name: </strong>" + lname + "<br><strong>Email: </strong>" + eaddress + "<br><br><strong>School and Current Grade: </strong>" + sncg + "<br><strong>What is your average GPA for the past school year?: </strong>" + gpa + "<br><strong>What are the subjects that you are interested in tutoring/coaching?: </strong>" + markedSubjects.join(', ') + "<br><strong>Please provide your legal guardian's contact information: </strong>" + legal + "<br><strong>Please write 2-5 sentences about yourself: </strong>" + it  + "<br><strong>please provide the full name of the individual/teacher: </strong>" + message + "</html>",
   }).then(
     message => {
-      console.log(message);
       submit_btn.value = 'Submit';
       // if email was successfully sent
       if (message == "OK") {
