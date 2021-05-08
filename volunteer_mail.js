@@ -27,7 +27,6 @@ volunteer_form.addEventListener('submit', function (e) {
       }
   }
   if (this.it.value != '' && this.it.value != null) {
-    console.log(this.it.value);
     it = this.it.value
   }
   
